@@ -1,0 +1,28 @@
+{
+  "name": "Defold",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "defold-og-image-1200x1200": "assets/defold-og-image-1200x1200.png"
+  },
+  "color_schemes": {
+    "Defold Light Color Scheme": {
+      "primary": "13234a",
+      "secondary": "f7f7f7",
+      "tertiary": "1e64ea",
+      "quaternary": "fd6623",
+      "header_background": "1e64ea",
+      "header_primary": "f7f7f7",
+      "highlight": "ffd313",
+      "danger": "fd6623",
+      "success": "1e64ea",
+      "love": "cf5023"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

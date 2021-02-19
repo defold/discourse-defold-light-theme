@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+body {
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body input, body button, body select, body textarea {
+    font-family: "Source Sans Pro";
+}
+
+body code {
+    font-family: Source Code Pro, monospace;   
+}
+
+.posts-wrapper {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#dfixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 1px;
+    z-index: 1001;
+}
+
+#dmenucontainer {
+    position: relative;
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 1px;
+}
+
+#dmenu {
+    position: absolute;
+    top: 3px;
+    right: 250px;
+}
+
+@media (max-width: 1000px) {
+    #site-logo {
+        content:url("//forum.defold.com/uploads/default/original/1X/55f4293363a24cb3e725272e76c2b963dd2af7f0.png");
+    }
+}
+
+@media (max-width: 850px) {
+    #dmenu {
+        display: none;
+    }
+}
+
+
+ul.dnav li a {
+    font-weight: 600;
+    letter-spacing: .125rem;
+    font-size: 14px;
+    color: white;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+ul.dnav {
+    padding: 0;
+    margin: 0;
+}
+
+.dnav li {
+    display:inline;
+    padding:0;
+    margin:0;
+}
+
+.topic-owner .topic-meta-data {
+    padding: 2px 4px;
+    color: #2d52ae;
+    background: #dee5f6;
+    border-radius: 8px;
+}
+
+.extra-info h1 {
+    font-size: 1.4em;
+}
+
+.extra-info-wrapper .topic-link {
+    font-weight: 400;
+    color: #fff;
+    max-width: 700px;
+    padding-right: 520px;
+}
+
+.badge-wrapper {
+    font-weight: 600;
+}
+
+.badge-wrapper.bullet {
+    font-size: 13px;    
+}
+
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category {
+    color: #fff !important;
+}
+
+.d-header .fa {
+    color: #fff;
+}
+
+.d-header .icons [class^="fa fa-"] {
+    font-size: 22px;
+}
+
+.fancy-title {
+    font-weight: 600;
+}
+
+.avatar {
+  -webkit-clip-path: polygon(
+    50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%
+  );
+  clip-path: polygon(
+    50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%
+  );
+}
+
+.hide-on-login {
+    display: none;
+}
+
+.anon .hide-on-login {
+    display: initial;
+}
+
+footer.defold-footer {
+    display: block;
+    background-image: url('//www.defold.com/static/heroes/hero-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding: 1em;
+    color: white;
+    margin-top: 2em;
+}
+
+footer .footer-content {
+    text-align: right;
+}
+footer .footer-content span {
+    display: inline-block;
+    padding: 0 2em;
+}
+
+footer .footer-content span a {
+    color: white;
+}
+
+footer .footer-content span a:visited {
+    color: white;
+}
+
+.hljs {
+    line-height: 1.6em;
+    padding: 1.4em;
+    color: #d0d3db;
+    background-color: #282c34;
+    overflow: auto;
+}
+
+.hljs-comment {
+    color: #8f8f8f;
+}
+
+.hljs-title {
+    color: #d0d3db;
+    font-weight: 600;
+}
+
+.hljs-built_in, .hljs-keyword {
+    color: #fd6623;
+}
+
+.hljs-string, .hljs-number {
+    color: #98c379;
+}
